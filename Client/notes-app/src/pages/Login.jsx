@@ -59,7 +59,7 @@ const Login = () => {
 
             { error && <p className='text-red-500 pb-2 text-xs'>{ error }</p>}
 
-            <p className='mb-3'><input type="checkbox" className='w-auto me-2'/>Remember Me</p>
+            <p className='mb-2 flex items-center text-gray-500 text-xs'><input type="checkbox" className='w-auto me-2'/>Remember Me</p>
 
             <button className='btn-primary' type='submit'>Login</button>
 
