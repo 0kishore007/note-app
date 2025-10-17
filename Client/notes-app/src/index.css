@@ -25,7 +25,7 @@
  }
 
  .btn-primary{
-  @apply w-full text-sm border p-2 rounded my-1 bg-primary text-white hover:bg-blue-500;
+  @apply w-full text-sm border-[2.0px] p-2 rounded my-1 bg-primary text-white hover:bg-blue-500;
  }
 
 }
