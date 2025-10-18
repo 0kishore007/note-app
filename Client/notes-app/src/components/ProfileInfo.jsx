@@ -4,7 +4,7 @@ import { getInitials } from '../../utils/helper'
 const ProfileInfo = ({ onLogout }) => {
   return (
     <div className='flex gap-3 items-center'>
-        <div className='flex w-12 h-12 rounded-full font-medium bg-slate-200 text-slate-950 items-center justify-center font-medium'>
+        <div className='flex w-12 h-12 rounded-full bg-slate-200 text-slate-950 items-center justify-center font-medium'>
             { getInitials("Vinsmoke Sanji") }
         </div>
 
